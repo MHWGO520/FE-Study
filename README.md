@@ -9,14 +9,14 @@ ELWG前端学习
 * [初级任务传送门](https://github.com/MHWGO520/FE-Study/blob/master/tasks-primary.md)
 * [中级任务传送门](https://github.com/MHWGO520/FE-Study/blob/master/tasks-intermediate.md)
 * [高级任务传送门](https://github.com/MHWGO520/FE-Study/blob/master/tasks-advanced.md)
-* [副本任务传送门](https://github.com/ITEC-ELWG/FE-Study/blob/master/tasks-boss.md)
-* [任务反馈说明](https://github.com/ITEC-ELWG/FE-Study/blob/master/feedback.md)
+* [副本任务传送门](https://github.com/MHWGO520/FE-Study/blob/master/tasks-boss.md)
+* [任务反馈说明](https://github.com/MHWGO520/FE-Study/blob/master/feedback.md)
 
 ## 部署说明
 
 请第一次提交代码的同学遵照以下步骤来部署你的代码（此处假设你已经注册了Github账号，安装并配置好了Git）：
 
-1. 到[ELWG前端学习小组任务提交处][]，把`ITEC-ELWG/FE-Study`这个项目**Fork**到你自己的账号。
+1. 到[ELWG前端学习小组任务提交处][]，把`MHWGO520/FE-Study`这个项目**Fork**到你自己的账号。
 2. 在你自己**本机**上创建一个文件夹，比如命名为`FE-Study`，然后进入该文件夹，在文件夹中打开命令行窗口，输入以下命令（注意把中文部分替换成你自己的昵称）把远程repo克隆到本地：
 
 ```    
