@@ -5,10 +5,10 @@ ELWG前端学习
 
 * 将你们完成的项目放到以姓名全拼命名的文件夹里面，命名如：`linshoushan`。注意：**这里是公共的repo，大家不要修改别人的文件夹或整个项目结构**
 * 每个项目一个文件夹，命名如：`linshoushan/calculator`
-* [英雄榜](https://github.com/ITEC-ELWG/FE-Study/blob/master/hero.md)
-* [初级任务传送门](https://github.com/ITEC-ELWG/FE-Study/blob/master/tasks-primary.md)
-* [中级任务传送门](https://github.com/ITEC-ELWG/FE-Study/blob/master/tasks-intermediate.md)
-* [高级任务传送门](https://github.com/ITEC-ELWG/FE-Study/blob/master/tasks-advanced.md)
+* [英雄榜](https://github.com/MHWGO520/FE-Study/blob/master/hero.md)
+* [初级任务传送门](https://github.com/MHWGO520/FE-Study/blob/master/tasks-primary.md)
+* [中级任务传送门](https://github.com/MHWGO520/FE-Study/blob/master/tasks-intermediate.md)
+* [高级任务传送门](https://github.com/MHWGO520/FE-Study/blob/master/tasks-advanced.md)
 * [副本任务传送门](https://github.com/ITEC-ELWG/FE-Study/blob/master/tasks-boss.md)
 * [任务反馈说明](https://github.com/ITEC-ELWG/FE-Study/blob/master/feedback.md)
 
@@ -56,7 +56,7 @@ ELWG前端学习
 * [前端网址导航](http://www.whycss.com/)
 * [如何跟上前端开发的最新前沿](https://uptodate.frontendrescue.org/zh/)
 * [MDN](https://developer.mozilla.org/zh-CN/docs/Web)
-* [实验室前人推荐书籍传送门](https://github.com/ELWG-FE-Study/FE-Study/blob/master/recommended-books.md)
+* [实验室前人推荐书籍传送门](https://github.com/MHWGO520/FE-Study/blob/master/recommended-books.md)
 
 [Package Control]: https://sublime.wbond.net/installation
 [HTML-CSS-JS Prettify]: https://github.com/victorporof/Sublime-HTMLPrettify
@@ -70,4 +70,4 @@ ELWG前端学习
 [通天塔]: http://tmd123.com
 [Stack Overflow]: http://stackoverflow.com/
 [Google编码规范]: https://code.google.com/p/google-styleguide/
-[ELWG前端学习小组任务提交处]: https://github.com/ITEC-ELWG/FE-Study
+[ELWG前端学习小组任务提交处]: https://github.com/MHWGO520/FE-Study
