@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.board{
+			position: absolute;
+			left:50%;
+			margin-left: -158px;
+			top: 100px;
+			width:316px;
+			background-color: #f7f7f7;
+			border-radius: 10px;
+		}
+		img{
+			display: block;
+			margin:10px auto;
+			width:72px;
+			height: 72px;
+			border-radius: 50%;
+			transform: rotate(20deg);
+		}
+		body{
+            -webkit-animation-name: b2w; 
+            -webkit-animation-duration: 4s; 
+            -webkit-animation-iteration-count:300;
+		}
+
+		@-webkit-keyframes b2w {
+			from{
+				background-color: gray;
+			}
+			to{
+				background-color: black;
+			}
+		}
+
+		form{
+			padding: 20px;
+		}
+		form input{
+			box-sizing:border-box;
+			height:44px;
+			width: 100%;
+			font-size: 16px;
+			border: 1px solid #d9d9d9;
+		}
+		input:first-child{
+			border-radius: 8px 8px 8px 8px;
+		}
+		input[type=password]{
+			border-radius: 8px 8px 8px 8px;
+			margin-top: -1px;	
+		}
+	</style>
+</head>
+<body bgcolor="black">
+	<div class="board">
+		<form>
+			<img src="C:\Users\luffy\Desktop\background.jpg">
+			<input type="text" placeholder="mail" name value>
+			<input type="password" placeholder="password">
+			<input type="button" name="submit" value="submit" onclick="location.href='index.html'">
+		</form>
+	</div>
+</body>
+</html>
