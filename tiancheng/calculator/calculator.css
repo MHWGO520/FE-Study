@@ -1,0 +1,22 @@
+table{
+	border-collapse: collapse;
+}
+
+td{
+	padding: 20px;
+	font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;	
+}
+
+td:hover{
+	background-color: #33CCFF;
+	transition-duration: 0.75s;
+}
+
+textarea{
+	width: 200px;
+	height: 30px;
+	font-size: 30px;
+	text-align:right;
+	overflow: hidden; /*去除滚动条*/
+	/*resize: none; */
+}
