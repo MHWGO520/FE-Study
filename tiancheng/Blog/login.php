@@ -1,3 +1,11 @@
+<?php
+
+function test(){
+	echo "hello world";
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +20,7 @@
 			<img src="images\image.jpg">
 			<input type="text" id="loginName" placeholder="username" name value>
 			<input type="password" id="loginPwd" placeholder="password">
-			<input type="button" class="loginButton" name="login" value="log in" onclick="loginGate()">
+			<input type="button" class="loginButton" name="login" value="log in" onclick='loginGate()'>
 			<input type="button" class="loginButton" name="login" value="register" onclick="location.href='register.html'">			
 		</form>
 	</div>
