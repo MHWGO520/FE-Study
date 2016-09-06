@@ -13,7 +13,7 @@ function loginGate(){
 	}
 	else
 	{
-		window.location.href = "index.html";
+		window.location = "beforeIndex.php";
 	}
 }
 

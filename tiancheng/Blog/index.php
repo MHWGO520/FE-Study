@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php
+	session_start();
+	if(!$_SESSION['view']){
+		header("Location:login.php");
+	}
+?>
 <html>
 <head>
 	<title>tiancheng's index</title>
@@ -22,5 +28,8 @@
 			<p id="section3">paragraph3</p>
 		</div>
 	</div>
+	<?php
+		session_destroy();
+	?>
 </body>
 </html>
