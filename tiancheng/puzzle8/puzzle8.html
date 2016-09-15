@@ -3,30 +3,37 @@
 <head>
 <meta charset="utf-8">
 <script src="./scripts/jquery-3.1.0.js"></script>
+<script src="./scripts/handleClick.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/puzzle8Style.css">
+<script>
+$(document).ready(function(){
+	$("td").click(function(){
+		buttonClick($(this).attr('id'));
+	});	
+});
+</script>
 </head>
 <body>
 
 <div class="plate">
 <table cellspacing="13" cellpadding="13">
 	<tr>
-		<td>1</td>
-		<td>2</td>
-		<td>3</td>
+		<td id="1">1</td>
+		<td id="2">2</td>
+		<td id="3">3</td>
 	</tr>		
 	<tr>
-		<td>4</td>
-		<td>5</td>
-		<td>6</td>
+		<td id="4">4</td>
+		<td id="5">5</td>
+		<td id="6">6</td>
 	</tr>
 	<tr>
-		<td>7</td>
-		<td>8</td>
-		<td> </td>
+		<td id="7">7</td>
+		<td id="8">8</td>
+		<td id="9"> </td>
 	</tr>
 </table>
 
 </div>
-
 </body>
 </html>
