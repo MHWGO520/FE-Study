@@ -1,9 +1,5 @@
 var i = 15;
 
-window.onload=function(){
-	changeText();
-}
-
 function changeText(){
 	var showTime = setTimeout("changeText()",1000);
 	document.getElementById("clock").value = i;
