@@ -9,10 +9,53 @@
 <script src="./scripts/timeController.js"></script>
 <script>
 	$(document).ready(function(){
+		
 		$("td").click(function(){
 			buttonClick($(this).attr('id'));	
+			$("td:not(:contains('king'))")
+			.css("background-color","#33CCCC")
+			.css("color","black")
+			.mouseover(function(){
+			$(this).css("background-color","#00FFFF")
+				   .css("transition","0.5s")
+			})
+			.mouseout(function(){
+			$(this).css("background-color","#33CCCC")
+				   .css("transition","0.5s");
+			});
+			$("td:contains('king')")
+			.mouseover(function(){
+			$(this).css("background-color","green")
+				   .css("transition","0.4s");
+			}) 
+			.mouseout(function(){
+			$(this).css("background-color","green")
+				   .css("transition","0.4s");
+			})
+			.css("background-color","green")		
+			.css("color","green");	
 		});
-		
+
+		$("td:not(:contains('king'))")
+			.mouseover(function(){
+			$(this).css("background-color","#00FFFF")
+				   .css("transition","0.5s");
+			})
+			.mouseout(function(){
+			$(this).css("background-color","#33CCCC")
+				   .css("transition","0.5s");
+			});
+		$("td:contains('king')")
+			.mouseover(function(){
+			$(this).css("background-color","green")
+				   .css("transition","0.4s");
+			})
+			.mouseout(function(){
+			$(this).css("background-color","green")
+				   .css("transition","0.4s");
+			})
+			.css("background-color","green")		
+			.css("color","green");
 	});
 </script>
 </head>
