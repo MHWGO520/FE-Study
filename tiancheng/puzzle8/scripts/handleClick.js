@@ -96,8 +96,6 @@ function buttonClick(str)
 	}
 	if(!flag)
 		changePos(kingPos,cPos);
-	else
-		alert(":(");
 }
 
 function changePos(kingPos,cPos)
